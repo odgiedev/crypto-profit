@@ -13,14 +13,14 @@ class AvgBigPrice extends Command
      *
      * @var string
      */
-    protected $signature = 'c:avg {crypto : Simbolo da criptomoeda}';
+    protected $signature = 'c:checkAvgBigPrice {crypto : Simbolo da criptomoeda}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Verifica se o preço da criptomoeda está menor que o preço medio dela.';
 
     /**
      * Execute the console command.

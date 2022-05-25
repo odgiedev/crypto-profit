@@ -13,7 +13,7 @@ class BidPrice extends Command
      *
      * @var string
      */
-    protected $signature = 'c:c {crypto : Simbolo da criptomoeda}';
+    protected $signature = 'c:saveBidPriceOnDataBase {crypto : Simbolo da criptomoeda}';
 
     /**
      * The console command description.
